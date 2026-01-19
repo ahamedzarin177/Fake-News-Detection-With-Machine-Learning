@@ -1,42 +1,30 @@
-# Fake News Detection System
+# Fake News Detection using TF-IDF and RSS Feeds
 
-This project is a **News Detection system** that analyzes online news titles using **Natural Language Processing (NLP)**, **RSS feed analysis**, and **TF‑IDF similarity** combined with **rule‑based decision logic** to identify whether a news item is **Fake**, **Neutral**, or **Well‑sourced**.
+## 📌 Project Description
+This project is a news verification system developed using Natural Language Processing techniques.  
+It analyzes news titles using RSS feed data and TF-IDF similarity, combined with rule-based decision logic, to classify news as **Fake**, **Neutral**, or **Well-sourced**.
 
----
-
-## Project Overview
-
-With the rapid spread of misinformation online, verifying the authenticity of news has become increasingly important.  
-This project compares a given news title against real-time RSS news feeds and applies similarity scoring and heuristic rules to determine credibility.
-
-The system does **not rely on a trained ML classifier**, instead it focuses on **content similarity, source presence, and recency** for transparent and explainable results.
+Unlike traditional machine learning classifiers, this system does not rely on model training. Instead, it verifies news credibility based on similarity with trusted news sources, source domain signals, and content recency.
 
 ---
 
-## Features
-
-- RSS feed based real-time news fetching  
-- Text preprocessing using NLP techniques  
-- TF‑IDF vectorization for similarity measurement  
-- Rule‑based decision logic for classification  
-- Outputs Fake / Neutral / Well‑sourced label  
-- Displays matched source, similarity score, and recency  
+## ⚙️ How It Works
+1. Fetches recent news titles from trusted RSS feeds
+2. Applies TF-IDF vectorization to compare similarity
+3. Uses rule-based logic to determine credibility
+4. Outputs a final label with explanation metrics
 
 ---
 
-## Technologies Used
+## ▶️ How to Run the Project
 
-- Python  
-- Pandas & NumPy  
-- Scikit‑learn (TF‑IDF Vectorizer)  
-- NLTK  
-- Feedparser  
-- Google Colab / Jupyter Notebook  
+### Option 1: Run using Google Colab (Recommended)
+1. Open the notebook in Google Colab
+2. Run all cells sequentially
+3. Enter a news title when prompted
+4. View the verification result
 
----
-
-## How to Run
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/Fake-News-Detection-With-Machine-Learning.git
+### Option 2: Run Locally
+```bash
+pip install -r requirements.txt
+jupyter notebook
