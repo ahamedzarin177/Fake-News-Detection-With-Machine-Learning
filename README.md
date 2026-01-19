@@ -1,6 +1,6 @@
 # Fake News Detection using Machine Learning
 
-## 📌 Project Description
+## Project Description
 This project is a news verification system developed using Natural Language Processing techniques.  
 It analyzes news titles using RSS feed data and TF-IDF similarity, combined with rule-based decision logic, to classify news as **Fake**, **Neutral**, or **Well-sourced**.
 
@@ -8,7 +8,7 @@ Unlike traditional machine learning classifiers, this system does not rely on mo
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. Fetches recent news titles from trusted RSS feeds
 2. Applies TF-IDF vectorization to compare similarity
 3. Uses rule-based logic to determine credibility
@@ -16,7 +16,7 @@ Unlike traditional machine learning classifiers, this system does not rely on mo
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### Option 1: Run using Google Colab (Recommended)
 1. Open the notebook in Google Colab
@@ -28,3 +28,23 @@ Unlike traditional machine learning classifiers, this system does not rely on mo
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+
+## Example Input & Output
+**Input:Breaking: New policy announced affecting global markets
+
+**Output:Label: Neutral
+Similarity Score: 0.41
+Matched Feed Title: Government discusses new economic measures
+
+## Tools & Libraries Used
+- Python
+- Jupyter Notebook
+- TF-IDF (scikit-learn)
+- RSS Feed Parser (feedparser)
+- Pandas
+- NumPy
+- NLTK
+
+
+
+
