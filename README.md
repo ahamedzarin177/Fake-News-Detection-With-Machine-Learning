@@ -1,4 +1,4 @@
-# Fake News Detection using TF-IDF and RSS Feeds
+# Fake News Detection using Machine Learning
 
 ## 📌 Project Description
 This project is a news verification system developed using Natural Language Processing techniques.  
