@@ -1,6 +1,6 @@
-# Fake News Verification System
+# Fake News Detection System
 
-This project is a **News Verification system** that analyzes online news titles using **Natural Language Processing (NLP)**, **RSS feed analysis**, and **TF‑IDF similarity** combined with **rule‑based decision logic** to identify whether a news item is **Fake**, **Neutral**, or **Well‑sourced**.
+This project is a **News Detection system** that analyzes online news titles using **Natural Language Processing (NLP)**, **RSS feed analysis**, and **TF‑IDF similarity** combined with **rule‑based decision logic** to identify whether a news item is **Fake**, **Neutral**, or **Well‑sourced**.
 
 ---
 
