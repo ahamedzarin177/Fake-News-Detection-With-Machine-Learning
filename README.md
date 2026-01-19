@@ -45,6 +45,9 @@ Matched Feed Title: Government discusses new economic measures
 - NumPy
 - NLTK
 
+## Data Source
+This project does not use a static dataset.  
+It fetches real-time news titles from trusted RSS feeds to verify news authenticity dynamically.
 
 
 
