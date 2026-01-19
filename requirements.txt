@@ -1,8 +1,6 @@
-feedparser
-beautifulsoup4
-scikit-learn
-requests
-python-dateutil
 numpy
 pandas
-joblib
+scikit-learn
+nltk
+feedparser
+requests
